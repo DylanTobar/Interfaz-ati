@@ -10,7 +10,7 @@ export class usuarioService {
 
   constructor(private http:HttpClient) { }
 
-  url="https://seguridad-ati.herokuapp.com/"
+  url="https://seguridad-ati.herokuapp.com/user"
 
 
   get(){
